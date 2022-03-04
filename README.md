@@ -1,2 +1,2 @@
 # RoboCrop-CNN-WebApp
-RoboCrop is a web application trained to identify 8 disease categories for soybeans using images of diseased leaves. It uses a convolutional neural network implementing the DenseNet201 base model with Tensorflow and Keras API.
+RoboCrop is a deep learning web application trained to identify 8 disease categories for soybeans using images of diseased leaves. It uses a convolutional neural network implementing the DenseNet201 base model with Tensorflow and Keras API. This is the best performing model trained on over 10,000 soybean images. I will update more soon as I a completing the project after thorough model comparisons and readying for publication.
