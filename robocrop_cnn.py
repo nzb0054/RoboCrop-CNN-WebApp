@@ -82,7 +82,6 @@ x.shape
 base_model = DenseNet201(include_top=False, weights='imagenet')
 x = base_model.output
 x = GlobalAveragePooling2D()(x)
-x = Flatten()(x)
 x = Dense(128, activation='relu')(x)
 x = Dropout(0.2)(x)
 x = Dense(64, activation='relu')(x)
