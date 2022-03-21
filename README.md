@@ -1,2 +1,15 @@
-# RoboCrop-CNN-WebApp
-RoboCrop is a deep learning web application trained to identify 8 disease categories for soybeans using images of diseased leaves. It uses a convolutional neural network implementing the DenseNet201 base model with Tensorflow and Keras API. This is the best performing model trained on over 10,000 soybean images. I will update more soon as I a completing the project after thorough model comparisons and readying for publication.
+# RoboCrop: An automated classifier of soybean diseases
+
+RoboCrop is a deep learning web application trained to identify eight disease categories for soybeans using images of diseased leaves. 
+
+We sought to develop an application to democratize soybean disease identification and hopefully reduce the excessive use of pesticides. Through our research approach we found that, for soybean foliar disease classification, the best performing base model was DenseNet201, using a from-scratch transfer learning approach. This was done using Tensorflow and Keras API. The details of this training model can be seen using the robocrop_cnn.py file. Using this model, we were able to develop an application that distinguishes between eight soybean disease/deficiency classes with an overall accuracy of 96.75%. 
+
+## Usage
+
+The model is hosted and available for use on our web application at ![RoboCrop Webapp](http://sickbeans.skullisland.info/). Simply take a picture of a soybean leaf and upload it to the website. The model will return a soybean disease prediction.
+
+The model is trained to recognize healthy plants, along with the following diseases: Bacterial Blight, Cercospora Leaf Blight, Downey Mildew, Frogeye, Potassium Deficiency, Soybean Rust, and Target Spot.
+
+Example images of each disease category: 
+
+![Soybean Diseases](Soy_Fig1.png)
