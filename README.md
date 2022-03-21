@@ -12,7 +12,9 @@ The details of the research is currently being submitted for publication and we 
 
 The model is hosted and available for use on our web application at [RoboCrop Webapp](http://sickbeans.skullisland.info/). Simply take a picture of a soybean leaf and upload it to the website. The model will return a soybean disease prediction.
 
-The model is trained to recognize healthy plants, along with the following diseases: Bacterial Blight, Cercospora Leaf Blight, Downey Mildew, Frogeye, Potassium Deficiency, Soybean Rust, and Target Spot.
+The model is trained to recognize healthy plants, along with the following diseases: 
+
+Bacterial Blight, Cercospora Leaf Blight, Downey Mildew, Frogeye, Potassium Deficiency, Soybean Rust, and Target Spot.
 
 Example images of each disease category: 
 
