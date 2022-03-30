@@ -89,6 +89,7 @@ base_model = DenseNet201(include_top=False, weights='imagenet')
 #Below x lines are the additional architecture attached beyond the base model
 x = base_model.output
 #Globalaveragepooling performs the 'flatten' purposes
+#x = Flatten()x
 x = GlobalAveragePooling2D()(x)
 #128, 64 neuron fully-connected layers with relu activation
 #Dropout for regularization
