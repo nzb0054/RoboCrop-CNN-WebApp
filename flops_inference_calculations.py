@@ -27,7 +27,7 @@ tf.enable_eager_execution()
 
 model = keras.models.load_model('model_file_path')
 
-# # Calculate FLOPS
+# # Calculate FLOPs, may need to change batch size
 flops = get_flops(model, batch_size=32)
 print(f"FLOPS: {flops / 10 ** 9:.03} G")
 
